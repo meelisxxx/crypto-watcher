@@ -57,7 +57,7 @@ const FuturesList = () => {
 
   return (
     <div className="mb-8">
-      <h2 className="text-2xl font-bold mb-4 text-white">Turud (Futuurid - 15min viide)</h2>
+      <h2 className="text-2xl font-bold mb-4 text-white"> Futuurid - 15min viide </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {futures?.map((item) => (
           <Card key={item.symbol} className="p-6 bg-card border-border hover:border-primary/50 transition-colors">
